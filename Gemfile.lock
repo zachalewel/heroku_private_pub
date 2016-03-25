@@ -12,7 +12,7 @@ GEM
       http_parser.rb (>= 0.5.3)
     em-socksify (0.2.1)
       eventmachine (>= 1.0.0.beta.4)
-    eventmachine (1.0.3)
+    eventmachine (1.0.9.1)
     faye (0.8.9)
       cookiejar (>= 0.3.0)
       em-http-request (>= 0.3.0)
@@ -39,6 +39,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  eventmachine (~> 1.0.4)
   foreman
   private_pub
   thin
+
+BUNDLED WITH
+   1.10.6
